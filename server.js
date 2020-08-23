@@ -7,7 +7,8 @@ const port = process.env.PORT || 3000;
 server.use(middlewares);
 
 server.use((req, res, next) => {
-console.log(req, res);
+console.log('req!!!!!!!!!!!!!!!!!!!!!!!!!!!!!', req);
+console.log('res!!!!!!!!!!!!!!!!!!!!!!!!!!!!!', res);
 next(); // continue to JSON Server router
 
 //  if (isAuthorized(req)) { // add ygit statusour authorization logic here
