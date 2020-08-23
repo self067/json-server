@@ -1,4 +1,12 @@
 {
+"users": [{
+  "githubId": "self067",
+  "role": "cardamo"
+}
+],
+
+"roles": ["author", "student", "supervisor", "course_manager"],
+
 "tasks": [{
   "id": "simple-task-v1",
   "author": "cardamo",
