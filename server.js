@@ -8,11 +8,13 @@ server.use(middlewares);
 
 server.use((req, res, next) => {
 console.log(req, res);
- if (isAuthorized(req)) { // add ygit statusour authorization logic here
-   next(); // continue to JSON Server router
- } else {
-   res.sendStatus(401);
- }
+next(); // continue to JSON Server router
+
+//  if (isAuthorized(req)) { // add ygit statusour authorization logic here
+//    next(); // continue to JSON Server router
+//  } else {
+//    res.sendStatus(401);
+//  }
 })
 
 server.use(router);
