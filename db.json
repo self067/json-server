@@ -1,8 +1,6 @@
 {
-"users": [{
-  "githubId": "self067",
-  "role": "cardamo"
-}
+"users": [
+  {"id": 1, "githubId": "self067", "email": "self067@gmail.com", "password": "qweqaz123" }
 ],
 
 "roles": ["author", "student", "supervisor", "course_manager"],
